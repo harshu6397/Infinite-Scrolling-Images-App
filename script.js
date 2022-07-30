@@ -17,7 +17,7 @@ function imageLoaded(){
 
 // Unsplash API ==> Fetch the data from the API
 const apiKey = 'h6ca_fhaTFGQIu3ebJfUrFHqzgqwuRbNrEh8OCACoXQ';
-const count = 5;
+const count = 30;
 const url = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 // Get photos from the API
@@ -72,7 +72,7 @@ function displayPhotos(photos) {
 
 // Check to see if the scroll has reached the bottom of the page, and if so, get more photos
 window.addEventListener('scroll', () => {
-    if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 1500 && ready) {
+    if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000 && ready) {
         ready = false;
         getPhotos(); // Get more photos
     }
