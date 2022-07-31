@@ -39,11 +39,16 @@ body {
 
 /* Image Container */
 .image-container{
-    margin: 10px 30%;
+    margin: 10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
 }
 
 .image-container img {
     width: 100%;
+    height: 100%;
     margin-top: 5px;
 }
 
