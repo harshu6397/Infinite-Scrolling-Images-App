@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 html {
     box-sizing: border-box;
@@ -6,18 +8,24 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Mochiy Pop One', sans-serif;
+    /* font-family: 'Mochiy Pop One', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
     background-color: #f5f5f5;
 }
 
 /* Title */
 .title{
+    border-radius: 10px;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 15px;
     font-size: 40px;
     word-spacing: 2px;
     letter-spacing: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 10px 10px;
+    
 }
 
 /* Spinner */
