@@ -48,10 +48,12 @@ body {
 /* Image Container */
 .image-container{
     margin: 10px;
-    display:grid;
+    /* display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 15px;
+    grid-gap: 15px; */
+    columns: 6 200px;
+    column-gap: 10px;
 }
 
 .image-container img {
